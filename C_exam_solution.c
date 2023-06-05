@@ -131,7 +131,7 @@ void printPets(float ffprice)
 int main()
 {
     // задача 1
-    unsigned SIZE = 0;
+    unsigned SIZE = 4;
     TPet pets[SIZE];
     for(int i=0;i<SIZE;i++){
         pets[i] = inputPet();
@@ -141,6 +141,6 @@ int main()
     printPetsByPrice(pets,SIZE,99.99);
     
     // задача 3
-    printPets(2.00);
+    printPets(25.00);
     return 0;
 }
